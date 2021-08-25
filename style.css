@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+/* VARIABLES */
+:root {
+    /* fonts */
+    --head-font: 'Macondo', cursive;
+    --font-five: 'Hina Mincho', serif;
+    --font-six: 'Open Sans', sans-serif;
+
+    /* colors */
+    --black2: #020202;
+    --red1: #6F0302;
+    --red2: #AE0409;
+    --red3: #df050c;
+    --red4: #ff6c71;
+    --white1: #faf6ee;
+    --white2: #fffdf8;
+
+}
+
+/* BODY */
+body {
+    margin: 0;
+    background-color: var(--white1);
+}
+ 
+/* NAV */
+.navbar {
+    background-color: black;
+    border-bottom: 10px solid var(--red1);
+    padding: 1rem;
+}
+
+.nav-image {
+    max-width: 80px;
+    display: block;
+    margin: auto;
+}
+
+.nav-header {
+    color: var(--red3);
+    font-family: var(--head-font);
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+
+/* INPUT BUTTON OUTPUT */
+.translation-area {
+    max-width: 670px;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.text-area {
+    background-color: var(--white2);
+    min-width: 90%;
+    height: 110px;
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid var(--red2);
+    border-radius: 2rem;
+    padding: 1.2rem;
+    resize: none;
+    outline: none;
+}
+
+.text-area::placeholder {
+    font-family: var(--head-font);
+    letter-spacing: 0.7;
+}
+
+#translate-button {
+    background-color: var(--red3);
+    color: black;
+    font-family: var(--head-font);
+    font-size: medium;
+    padding: 0.7rem 1.5rem;
+    border-style: none;
+    border-radius: 3rem;
+    display: block;
+    margin: 1rem auto;
+}
+
+#translate-button:hover {
+    background-color: black;
+    color: var(--red3);
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: black;
+    border-top: 10px solid var(--red1);
+    padding: 1ream;
+}
+
+.footer-title {
+    color: var(--red3);
+    text-align: center;
+    font-family: var(--head-font);
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin: 0rem;
+    padding-top: 1rem;
+}
+
+.footer-text {
+    color: var(--red4);
+    font-family: var(--head-font);
+    text-align: center;
+    letter-spacing: 0.7px;
+    max-width: 650px;
+    margin: 0rem auto;
+    padding: 0.5rem;
+}
