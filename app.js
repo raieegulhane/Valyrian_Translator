@@ -17,7 +17,7 @@ function onClickListener() {
     var textInput = inputText.value;
 
     fetch(editURL(textInput))
-        .then(response => response.json)
+        .then(response => response.json())
         .then(json => {
             var translatedText = json.contents.translated;
             outputText.innerText = translatedText;
