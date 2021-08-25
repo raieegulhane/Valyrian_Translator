@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 
 /* VARIABLES */
 :root {
     /* fonts */
     --head-font: 'Macondo', cursive;
-    --font-five: 'Hina Mincho', serif;
-    --font-six: 'Open Sans', sans-serif;
 
     /* colors */
-    --black2: #020202;
     --red1: #6F0302;
     --red2: #AE0409;
     --red3: #df050c;
