@@ -3,9 +3,9 @@
 
 DESCRIPTION:
 <br>
-VanillaJs app that translates normal English sentences to valyrian language (language from Game of Thrones tv series).
-Fun translation API is used to do the translation. 
-Deployed on netlify.
+- VanillaJs app that translates normal English sentences to valyrian language (language from Game of Thrones tv series).
+- API used for translations - Fun translation API. 
+- Deployed on netlify.
 
 
 APP PREVIEW:
